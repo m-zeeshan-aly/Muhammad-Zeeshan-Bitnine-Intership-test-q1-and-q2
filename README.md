@@ -1,5 +1,53 @@
 # Muhammad-Zeeshan-Bitnine-Intership-test-q1-and-q2
 
+# Bitnine Intership Text Question No 1
+
+Using this structure, please write a function that returns fibonacci sequence based 
+on the following arithmetic operations (+, -,*, /) and conditions. The fibonacci 
+function should be implemented using Dynamic Programming.
+
+## Table of contents
+
+- Requirements
+- Installations
+- Compilation
+- Execution
+- Code Summary
+## Requirements
+
+This module requires the following modules:
+
+Understing of Programming in C language
+
+
+
+## Installations
+
+Install C language to your local machine so that code can be run 
+and can be seen what it tyring to do.
+
+
+## Compilation
+
+To compile the following code run the command in terminal: gcc DPAfibq1.c -o DPAfibq1
+
+
+## Execution
+
+To run the following code to see the out put run the command in terminal: ./DPAfibq1
+
+
+## Code Summary
+
+This function uses a bottom-up approach to build up the fibonacci sequence, 
+starting with the base cases of fib(0) = 0 and fib(1) = 1,
+and then building up to the nth value using the provided arithmetic operation. 
+The function takes in an integer n, and the operation to be performed. 
+The result is returned as a pointer to a Node struct, containing the fibonacci value, 
+and it's using the TypeTag enum to store the type of operation.
+
+Note: This function doesn't handle the cases when operation is DIVIDE and the result is negative or when dividing by zero.
+
 # Bitnine Intership Test Question No 2
 
 Implement the following piecewise recurrence relation in the 3 different ways.
